@@ -17,6 +17,13 @@ public class Main {
 //        Box box2 = new Box(3.0, 4.0, 5.0);
 //        System.out.println("Box2 weight is: " + box2.weight); // Not possible becuase parent don't know anything about child class properties
 
-        Box boxWithColor = new BoxWeight(3.0, 4.0, 5.0, 20, "White");
+//        Box boxWithColor = new BoxWeight(3.0, 4.0, 5.0, 20, "White");
+
+        Box box2 = new BoxWeight(box);
+        System.out.println("Box2 length is: " + box2.length);
+        System.out.println("Box2 width is: " + box2.width);
+        System.out.println("Box2 height is: " + box2.height);
+//        System.out.println("Box2 weight is: " + box2.weight); // not possible
+
     }
 }

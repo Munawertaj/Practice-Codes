@@ -13,4 +13,8 @@ public class BoxWeight extends Box {
     BoxWeight(double length, double width, double height, double weight, String color) {
         this.weight = weight;
     }
+
+    BoxWeight(BoxWeight box) {
+        super(box);
+    }
 }

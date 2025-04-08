@@ -25,4 +25,11 @@ public class Box {
         this.height = height;
         this.color = color;
     }
+
+    Box(Box box) {
+        System.out.println("Box constructor with box type object is called");
+        this.length = box.length;
+        this.width = box.width;
+        this.height = box.height;
+    }
 }

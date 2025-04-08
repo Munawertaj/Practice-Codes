@@ -12,6 +12,10 @@ public class Box {
         this.color = null;
     }
 
+    {
+        System.out.println("Instance block is called");
+    }
+
     Box(double length, double width, double height) {
         System.out.println("Box constructor with length, height and width called");
         this.length = length;

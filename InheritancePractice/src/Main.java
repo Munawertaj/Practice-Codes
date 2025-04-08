@@ -3,10 +3,10 @@ public class Main {
 
         BoxWeight box = new BoxWeight(3.0, 4.0, 5.0, 20.0);
 
-//        System.out.println("Box length is: " + box.length);
-//        System.out.println("Box width is: " + box.width);
-//        System.out.println("Box height is: " + box.height);
-//        System.out.println("Box weight is: " + box.weight);
+        System.out.println("Box length is: " + box.length);
+        System.out.println("Box width is: " + box.width);
+        System.out.println("Box height is: " + box.height);
+        System.out.println("Box weight is: " + box.weight);
 
 //        Box box1 = new BoxWeight(3.0, 4.0, 5.0, 20.0);
 //        System.out.println("Box1 length is: " + box1.length);

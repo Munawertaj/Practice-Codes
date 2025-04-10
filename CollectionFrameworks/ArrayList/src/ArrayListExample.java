@@ -32,5 +32,14 @@ public class ArrayListExample {
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
+        // -------- Custom ArrayList -------
+        System.out.println("CUSTOM ArrayList: ");
+        ArrayList<Student> students = new ArrayList<>();
+        students.add(new Student(1, "Mamun"));
+        students.add(new Student(2, "Taj"));
+
+        for (Student student : students) {
+            System.out.println(student);
+        }
     }
 }

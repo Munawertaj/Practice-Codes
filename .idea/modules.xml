@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AbstractPractice/AbstractPractice.iml" filepath="$PROJECT_DIR$/AbstractPractice/AbstractPractice.iml" />
       <module fileurl="file://$PROJECT_DIR$/CollectionFrameworks/ArrayList/ArrayList.iml" filepath="$PROJECT_DIR$/CollectionFrameworks/ArrayList/ArrayList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FileHandling/FileHandling.iml" filepath="$PROJECT_DIR$/FileHandling/FileHandling.iml" />
       <module fileurl="file://$PROJECT_DIR$/Generics/Generics.iml" filepath="$PROJECT_DIR$/Generics/Generics.iml" />
       <module fileurl="file://$PROJECT_DIR$/CollectionFrameworks/HashMap/HashMap.iml" filepath="$PROJECT_DIR$/CollectionFrameworks/HashMap/HashMap.iml" />
       <module fileurl="file://$PROJECT_DIR$/CollectionFrameworks/HashSet/HashSet.iml" filepath="$PROJECT_DIR$/CollectionFrameworks/HashSet/HashSet.iml" />

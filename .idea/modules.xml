@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AbstractPractice/AbstractPractice.iml" filepath="$PROJECT_DIR$/AbstractPractice/AbstractPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CollectionFrameworks/ArrayList/ArrayList.iml" filepath="$PROJECT_DIR$/CollectionFrameworks/ArrayList/ArrayList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Generics/Generics.iml" filepath="$PROJECT_DIR$/Generics/Generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CollectionFrameworks/HashMap/HashMap.iml" filepath="$PROJECT_DIR$/CollectionFrameworks/HashMap/HashMap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CollectionFrameworks/HashSet/HashSet.iml" filepath="$PROJECT_DIR$/CollectionFrameworks/HashSet/HashSet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InheritancePractice/InheritancePractice.iml" filepath="$PROJECT_DIR$/InheritancePractice/InheritancePractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InterfacePractice/InterfacePractice.iml" filepath="$PROJECT_DIR$/InterfacePractice/InterfacePractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Learning Practices.iml" filepath="$PROJECT_DIR$/.idea/Learning Practices.iml" />
+    </modules>
+  </component>
+</project>

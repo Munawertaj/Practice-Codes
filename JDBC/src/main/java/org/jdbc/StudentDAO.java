@@ -1,18 +1,11 @@
 package org.jdbc;
 
 import java.sql.*;
-import java.util.Scanner;
 
 public class StudentDAO {
-
-    public void addStudent() {
+    public void addStudent(String name, int age, String email, String course) {
         try (Connection conn = DBConnection.getConnection();
              Statement stmt = conn.createStatement()) {
-
-            String name = "Nayem";
-            int age = 24;
-            String email = "nayem@gmail.com";
-            String course = "BSc in EEE";
 
             String query = "INSERT INTO student (name, age, email, course) VALUES ('" +
                     name + "', " + age + ", '" + email + "', '" + course + "')";
@@ -27,9 +20,8 @@ public class StudentDAO {
 
     public void viewAllStudents() {
         try (Connection conn = DBConnection.getConnection();
-             Statement stmt = conn.createStatement()) {
-
-            ResultSet rs = stmt.executeQuery("SELECT * FROM student");
+             Statement stmt = conn.createStatement();
+             ResultSet rs = stmt.executeQuery("SELECT * FROM student")) {
 
             System.out.println("ID | Name | Age | Email | Course");
             while (rs.next()) {
@@ -45,15 +37,9 @@ public class StudentDAO {
         }
     }
 
-    public void updateStudent() {
+    public void updateStudentAge(int id, int age) {
         try (Connection conn = DBConnection.getConnection();
              Statement stmt = conn.createStatement()) {
-
-            int id = 22;
-            String name = "Nayem";
-            int age = 25;
-            String email = "nayem@gmail.com";
-            String course = "BSc in EEE";
 
             String query = "UPDATE student SET age='" + age + "' WHERE id=" + id;
 
@@ -65,11 +51,9 @@ public class StudentDAO {
         }
     }
 
-    public void deleteStudent() {
+    public void deleteStudent(int id) {
         try (Connection conn = DBConnection.getConnection();
              Statement stmt = conn.createStatement()) {
-
-            int id = 23;
 
             String query = "DELETE FROM student WHERE id = " + id;
 
@@ -81,4 +65,3 @@ public class StudentDAO {
         }
     }
 }
-

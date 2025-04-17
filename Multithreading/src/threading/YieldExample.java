@@ -1,3 +1,5 @@
+package threading;
+
 public class YieldExample extends Thread {
     public YieldExample(String name) {
         super(name);

@@ -1,3 +1,5 @@
+package threading;
+
 public class SetPriorityExample extends Thread {
     public SetPriorityExample(String name) {
         super(name);

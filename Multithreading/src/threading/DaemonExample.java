@@ -1,3 +1,5 @@
+package threading;
+
 public class DaemonExample extends Thread {
     public DaemonExample(String name) {
         super(name);

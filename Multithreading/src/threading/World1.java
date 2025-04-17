@@ -1,3 +1,5 @@
+package threading;
+
 public class World1 extends Thread {
     @Override
     public void run() {

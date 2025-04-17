@@ -1,3 +1,5 @@
+package threading;
+
 public class World2 implements Runnable {
 
     @Override

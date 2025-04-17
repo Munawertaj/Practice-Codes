@@ -1,3 +1,5 @@
+package threading;
+
 public class ThreadMethodsExample extends Thread {
     public void run() {
         System.out.println("RUNNING ThreadMethodsExample run method");
